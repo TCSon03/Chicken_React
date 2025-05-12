@@ -8,12 +8,11 @@
 // console.log(myVar);
 
 // Lấy tất cả
-import * as name from "./name.js";
-console.log(name.myVar);
-name.myFunction();
+// import * as name from "./name.js";
+// console.log(name.myVar);
+// name.myFunction();
 
 // import default
-import total from "./default.js";
+import { total as hihi } from "./default.js";
 // console.log(df);
-console.log(total(1,2));
-
+console.log(hihi(1, 2));
